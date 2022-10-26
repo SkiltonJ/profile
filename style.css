@@ -1,0 +1,97 @@
+body {
+  font-family: ubuntu;
+  margin: 0;
+}
+.container {
+  background-color: #f7f8d5;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.avatar {
+  height: 200px;
+  width: 170px;
+  border-radius: 50%;
+}
+
+div {
+  border: 3px dashed brown;
+}
+
+.head-info {
+text-align: center;
+padding: 30px;
+margin-bottom: 20px;
+border-radius: 6px;
+}
+
+#description {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+  box-shadow: 6px 10px 20px red;
+}
+
+.blue-button {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #71b1e7;
+  color: #f3f3b8;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.blue-button:hover {
+  background-color: #f3f3b8;
+  color: #71b1e7;
+}
+
+.about-me {
+  display: flex;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.experience {
+  width: 50%;
+  margin: 10px;
+  padding: 0px 16px;
+  line-height: 2em;
+  border-radius: 6px;
+}
+
+p {
+  padding: 10px;
+}
+
+.large-list {
+  font-size: 20px;
+}
+
+.list-information, .horizontal-list {
+  list-style: none;
+}
+
+.div-card {
+  background-color: #bddcf6;
+}
+
+.card-back {
+  background-color: #dde9f4;
+}
+
+.footer {
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.horizontal-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+}
